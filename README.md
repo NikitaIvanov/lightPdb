@@ -1,7 +1,7 @@
 # lightPdb
 This is light java library for pdb file format
 
-How to use it:<br><code>
+How to use it:<br><code lang="java">
     InputStream is = ... ;<br>
     BufferedReader reader = new BufferedReader(new InputStreamReader(is));<br>
     String line;<br>
@@ -23,3 +23,4 @@ How to use it:<br><code>
         }<br>
       }<br>
     }<br>
+</code>
